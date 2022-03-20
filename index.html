@@ -9,16 +9,19 @@
     
 </head>
 <body>
+    <header>Etch-a-Sketch</header>
+
     <section class="input-btns">
-        <input type="color" name="color-picker" id="color-input" value="#5902ec">
-        <button class="reset-btn">Reset</button>
-        <button class="rainbow-btn">Rainbow</button>
-        <button class="size-btn">Size</button>
+        <input type="color" name="color-picker" class="color" id="color-input" value="#5902ec" >
+        <input type="number" name="size" class="size" value='16' min="1" max="100">
+        <button class="btn erase-btn">Erase</button>
+        <button class="btn rainbow-btn">Rainbow</button>
+        <button class="btn reset-btn">Reset</button>
     </section>
-    <section class="container">
-        <div class="pixels"></div>
-    </section>
+    <div class="container">
+        
+    </div>
     
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </body>
 </html>
